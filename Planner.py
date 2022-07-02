@@ -8,6 +8,7 @@ import os
 #from datetime import datetime
 from datetime import timedelta
 ## Required for writing to goolge sheet
+from openpyxl.reader.excel import load_workbook
 
 
 data_file = ".\Faculty_Planner.xlsx"
