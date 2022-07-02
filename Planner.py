@@ -12,7 +12,7 @@ from openpyxl.reader.excel import load_workbook
 
 
 data_file = ".\Faculty_Planner.xlsx"
-data= openpyxl.load_workbook(data_file)
+data= load_workbook(data_file)
 
 #df = pd.read_excel(data_file,sheet_name = "Schedule")
 
