@@ -11,7 +11,7 @@ from datetime import timedelta
 #from openpyxl.reader.excel import load_workbook
 
 
-data_file = ".\Faculty_Planner.xlsx"
+data_file = "Faculty_Planner.xlsx"
 # data= load_workbook(data_file)
 data= openpyxl.load_workbook(data_file)
 
