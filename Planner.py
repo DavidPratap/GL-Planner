@@ -8,11 +8,12 @@ import os
 #from datetime import datetime
 from datetime import timedelta
 ## Required for writing to goolge sheet
-from openpyxl.reader.excel import load_workbook
+#from openpyxl.reader.excel import load_workbook
 
 
 data_file = ".\Faculty_Planner.xlsx"
-data= load_workbook(data_file)
+# data= load_workbook(data_file)
+data= openpyxl.load_workbook(data_file)
 
 #df = pd.read_excel(data_file,sheet_name = "Schedule")
 
